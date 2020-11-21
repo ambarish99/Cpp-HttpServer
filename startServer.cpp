@@ -1,4 +1,4 @@
-//TO COMPILE : g++ -static startServer.cpp -o startServer.exe -I c:\cServerClient\cServerUtilityLibrary\include\ -lcServerUtilityLib -L c:\cServerClient\cServerUtilityLibrary\src\ -I c:\cServerClient\serverLibrary\include\ -lhttpServerLib -L c:\cServerClient\serverLibrary\src\ -I c:\cServerClient\server\include\ -lmyServer -L c:\cServerClient\server\src\   -std=c++11 -lws2_32
+//TO COMPILE : g++ -static startServer.cpp -o startServer.exe -I .\cServerUtilityLibrary\include\ -lcServerUtilityLib -L .\cServerUtilityLibrary\src\ -I .\serverLibrary\include\ -lhttpServerLib -L .\dist\ -I .\server\include\ -lmyServer -L .\dist\   -std=c++11 -lws2_32
 
 
 #include<iostream>
